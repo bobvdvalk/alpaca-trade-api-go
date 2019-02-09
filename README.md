@@ -1,14 +1,14 @@
 # alpaca-trade-api-go
 
 [![CircleCI Status](https://circleci.com/gh/alpacahq/alpaca-trade-api-go.svg?style=svg)](https://circleci.com/gh/alpacahq/alpaca-trade-api-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/alpacahq/alpaca-trade-api-go)](https://goreportcard.com/report/github.com/alpacahq/alpaca-trade-api-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/bobvdvalk/alpaca-trade-api-go)](https://goreportcard.com/report/github.com/bobvdvalk/alpaca-trade-api-go)
 
 `alpaca-trade-api-go` is a Go library for the Alpaca trade API. It allows rapid trading algo development easily, with support for the both REST and streaming interfaces. For details of each API behavior, please see the online API document.
 
 ## Installation
 
 ```
-$ go get github.com/alpacahq/alpaca-trade-api-go
+$ go get github.com/bobvdvalk/alpaca-trade-api-go
 ```
 
 ## Example
@@ -22,8 +22,8 @@ import (
     "os"
     "fmt"
 
-    "github.com/alpacahq/alpaca-trade-api-go/alpaca"
-    "github.com/alpacahq/alpaca-trade-api-go/common"
+    "github.com/bobvdvalk/alpaca-trade-api-go/alpaca"
+    "github.com/bobvdvalk/alpaca-trade-api-go/common"
 )
 
 func init() {
@@ -53,9 +53,9 @@ import (
     "os"
     "fmt"
 
-    "github.com/alpacahq/alpaca-trade-api-go/alpaca"
-    "github.com/alpacahq/alpaca-trade-api-go/polygon"
-    "github.com/alpacahq/alpaca-trade-api-go/stream"
+    "github.com/bobvdvalk/alpaca-trade-api-go/alpaca"
+    "github.com/bobvdvalk/alpaca-trade-api-go/polygon"
+    "github.com/bobvdvalk/alpaca-trade-api-go/stream"
     nats "github.com/nats-io/go-nats"
 )
 
@@ -112,4 +112,4 @@ $ export APCA_API_BASE_URL=https://paper-api.alpaca.markets
 
 ## GoDoc
 
-For a more in-depth look at the SDK, see the [GoDoc](https://godoc.org/github.com/alpacahq/alpaca-trade-api-go)
+For a more in-depth look at the SDK, see the [GoDoc](https://godoc.org/github.com/bobvdvalk/alpaca-trade-api-go)

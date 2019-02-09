@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/alpacahq/alpaca-trade-api-go/common"
+	"github.com/bobvdvalk/alpaca-trade-api-go/common"
 	try "gopkg.in/matryer/try.v1"
 )
 

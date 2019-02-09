@@ -4,7 +4,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/alpacahq/alpaca-trade-api-go/common"
+	"github.com/bobvdvalk/alpaca-trade-api-go/common"
 	nats "github.com/nats-io/go-nats"
 )
 

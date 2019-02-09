@@ -1,4 +1,4 @@
-module github.com/alpacahq/alpaca-trade-api-go
+module github.com/bobvdvalk/alpaca-trade-api-go
 
 require (
 	github.com/davecgh/go-spew v1.1.0
