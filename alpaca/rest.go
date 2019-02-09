@@ -19,7 +19,7 @@ var (
 	// DefaultClient is the default Alpaca client using the
 	// environment variable set credentials
 	DefaultClient = NewClient(common.Credentials())
-	base          = "https://api.alpaca.markets/"
+	base          = "https://paper-api.alpaca.markets/"
 	do            = func(c *Client, req *http.Request) (*http.Response, error) {
 		req.Header.Set("APCA-API-KEY-ID", c.credentials.ID)
 		req.Header.Set("APCA-API-SECRET-KEY", c.credentials.Secret)
